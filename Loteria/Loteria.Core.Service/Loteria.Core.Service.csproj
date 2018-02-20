@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loteria.Application.Model\Loteria.Application.Model.csproj" />
+    <ProjectReference Include="..\Loteria.Core.Data\Loteria.Core.Data.csproj" />
+    <ProjectReference Include="..\Loteria.Core.Domain\Loteria.Core.Domain.csproj" />
+    <ProjectReference Include="..\Loteria.Shared\Loteria.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
